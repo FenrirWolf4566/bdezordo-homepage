@@ -1,8 +1,0 @@
-curl -X POST http://localhost:3000/users -d "firstname=Gérard&lastname=Depardieu&age=74&password=gg"
-curl -X POST http://localhost:3000/users -d "firstname=Benjamin&lastname=DeZordo&age=22&password=benjamin"
-curl -X POST http://localhost:3000/users -d "firstname=Arthur&lastname=Allain&age=22&password=arthur"
-
-curl -X POST -d "idUsers[]=6&name=Actors" http://localhost:3000/associations/
-curl -X POST -d "idUsers[]=7&idUsers=8&name=Students" http://localhost:3000/associations/
-
-curl -X POST -d "idUsers[]=9&idUsers=8&idUsers=7&name=Kind Guy" http://localhost:3000/associations/
